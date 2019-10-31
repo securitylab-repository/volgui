@@ -1,4 +1,4 @@
-# volgui
+# VolGui
 
 ## Requirements
 ```
