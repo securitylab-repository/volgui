@@ -37,13 +37,13 @@ class VolGuiMainWindow(QMainWindow, Ui_MainWindow):
         # self.action_Ouvrir.triggered.connect(self.on_action_Ouvrir_triggered)
 
     ##################################################################################################
-    # Gestion du menu Fichier --> Ouvrir
+    # manage the submenu File --> Open or fichier -> ouvrir
     #################################################################################################
     @pyqtSlot()
     def on_action_Ouvrir_triggered(self):
 
         """
-            Click on  Fichier --> Ouvrir event handler
+            Click on  File --> Open event handler
             
         """
 

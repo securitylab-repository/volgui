@@ -9,7 +9,9 @@ class Profile:
     """
 
     def __init__(self):
-
+        """
+        The choosen profile key is 'choosen_profile'
+        """
         self.profile = {} # content of the profile, ex: {'KPCR for CPU 0': 2190789632, 'Suggested Profile(s)': 'Win7SP1x86_23418, Win7SP0x86, Win7SP1x86_24000, Win7SP1x86', 'Image Type (Service Pack)': 0, 'Image local date and time': '2016
 
     def build_profile(self, imageinfo_result):
@@ -39,7 +41,7 @@ class Profile:
         :return: the object string representation
         """
 
-        return "Profile list :".format(self.profiles)
+        return "Profile list : {} \n Choosen_profile : {}".format(self.profile)
 
     def __str__(self):
         """
@@ -47,8 +49,7 @@ class Profile:
 
         :return: the string representation of the object
         """
-
-        return "Profile list : {}".format(self.profiles)
+        return "Profile list : {} \n Choosen_profile : {}".format(self.profile)
 
     # def __del__(self):
     # put here the message to log when one instance of this object is deleted
